@@ -1,0 +1,17 @@
+# Ignore IDE and agent folders
+.agent/
+.agents/
+.git/
+
+# Ignore segment-specific CSVs (keep main export)
+customers_*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
